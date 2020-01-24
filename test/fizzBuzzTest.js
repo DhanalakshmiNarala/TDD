@@ -11,5 +11,8 @@ describe("fizzBuzz", ()=> {
     it("should return fizzbuzz for multiple number of 3 and 5", ()=> {
         fizzBuzz(15, 15).should.deep.equal(["fizzbuzz"])
     })
+    it("should return same number for neither multiple of 3 nor multiple of 5", ()=> {
+        fizzBuzz(11, 11).should.deep.equal([11])
+    })
 })
     
