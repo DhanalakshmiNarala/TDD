@@ -1,0 +1,24 @@
+{
+  "name": "TDD",
+  "version": "1.0.0",
+  "description": "basic problems for TDD practise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DhanalakshmiNarala/TDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DhanalakshmiNarala/TDD/issues"
+  },
+  "homepage": "https://github.com/DhanalakshmiNarala/TDD#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0"
+  }
+}
