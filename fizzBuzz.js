@@ -13,6 +13,7 @@ const getText = (num)=> {
         return "fizz"
     if(num % 5 == 0)
         return "buzz"
+    return num
 }
 
 module.exports = fizzBuzz
