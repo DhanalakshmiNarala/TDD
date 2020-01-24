@@ -1,9 +1,9 @@
 const fizzBuzz = require('../fizzBuzz')
-const assert = require('chai').assert
+const should = require('chai').should()
 
 describe('fizzBuzz', ()=> {
     it('should return fizz for multiple of 3', ()=> {
-        assert.equal(fizzBuzz(6, 6), ["fizz"])
+        fizzBuzz(6, 6).should.deep.equal(["fizz"])
     })
 })
     
