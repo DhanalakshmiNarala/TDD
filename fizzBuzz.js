@@ -1,18 +1,17 @@
-const fizzBuzz = (startRange, endRange)=> {
+const fizzBuzz = (rangeStart, rangeEnd)=> {
     let result = []
-    for(let num = startRange; num <= endRange; num++) {
+    for(let num = rangeStart; num <= rangeEnd; num++) 
         result.push(getText(num))
-    }
     return result
 }
 
 const getText = (num)=> {
     if(num % 3 == 0 && num % 5 == 0)
-        return "fizzbuzz"
+        return "Fizz Buzz"
     if(num % 3 == 0)
-        return "fizz"
+        return "Fizz"
     if(num % 5 == 0)
-        return "buzz"
+        return "Buzz"
     return num
 }
 
