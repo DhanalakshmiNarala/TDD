@@ -4,7 +4,7 @@
   "description": "basic problems for TDD practise",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/fibonnaciTest.js"
+    "test": "mocha ./test/primeNumbersTest.js"
   },
   "repository": {
     "type": "git",
