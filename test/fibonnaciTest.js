@@ -14,12 +14,12 @@ describe("Fibonnaci numbers", ()=> {
         fibonnaciNumbers(8, 8).should.deep.equal([21])
     })
 
-    it("shoul work for large range numbers", ()=> {
+    it("shoul work for 1 to 10 range numbers", ()=> {
         let expectedResult = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
         fibonnaciNumbers(1, 10).should.deep.equal(expectedResult)
     })
-    
-    it("should work for very large range of numbers", ()=> {
+
+    it("should work for large number 53", ()=> {
         let result = 53316291173
         fibonnaciNumbers(53, 53).should.deep.equal([result])
     })
